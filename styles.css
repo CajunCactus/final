@@ -1,0 +1,17 @@
+@charset "UTF-8";
+body {
+    background-image: url(Resize_Images/GT3Hood_1050x.jpg);
+}
+body section h5 {
+    font-size: xx-large;
+    text-align: center;
+}
+body section p {
+    text-align: center;
+}
+body section img {
+    width: 25%;
+    height: 25%;
+}
+.frame {
+}
