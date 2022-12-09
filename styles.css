@@ -1,6 +1,12 @@
 @charset "UTF-8";
 body {
-    background-image: url(Resize_Images/GT3Hood_1050x.jpg);
+    background-image: url(Resize_Images/GT3Hood_1050x.jpg), -webkit-linear-gradient(270deg,rgba(255,255,255,0.22) 0%,rgba(255,0,0,1.00) 100%);
+    background-image: url(Resize_Images/GT3Hood_1050x.jpg), -moz-linear-gradient(270deg,rgba(255,255,255,0.22) 0%,rgba(255,0,0,1.00) 100%);
+    background-image: url(Resize_Images/GT3Hood_1050x.jpg), -o-linear-gradient(270deg,rgba(255,255,255,0.22) 0%,rgba(255,0,0,1.00) 100%);
+    background-image: url(Resize_Images/GT3Hood_1050x.jpg), linear-gradient(180deg,rgba(255,255,255,0.22) 0%,rgba(255,0,0,1.00) 100%);
+    background-color: #FFFFFF;
+}
+.frame .custom-btn.btn-2 {
 }
 body section h5 {
     font-size: xx-large;
@@ -14,4 +20,27 @@ body section img {
     height: 25%;
 }
 .frame {
+}
+body {
+    background-color: #FFFFFF;
+}
+body aside h1 {
+    text-align: center;
+    font-size: xx-large;
+}
+body section h2 {
+    text-align: center;
+}
+.btn-2 {
+  border: none;
+}
+.btn-2:before {
+  height: 0%;
+  width: 2px;
+}
+.btn-2:hover {
+  box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+              -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.5),
+    inset 4px 4px 6px 0 rgba(116, 125, 136, .3);
 }
